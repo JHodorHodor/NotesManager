@@ -1,0 +1,10 @@
+In Controller.java change:
+    for jar:
+        public static String mainCategory = "./.categories";
+    for normal use:
+        public static String mainCategory = "categories/";
+In ControllerPrimary.java change:
+    for jar:
+        private String pathToStates = ".states";
+    for normal use:
+        private String pathToStates = "src/main/resources/States/states";
